@@ -1,0 +1,2 @@
+#!/bin/bash
+emcc -g debugging.c -o debugging.html

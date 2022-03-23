@@ -1,0 +1,2 @@
+#!/bin/bash
+emcc -O3 -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=2 pthreads.c -o pthreads.js

@@ -1,0 +1,2 @@
+#!/bin/bash
+emcc -O3 -fwasm-exceptions exception.cpp -o exception.js
